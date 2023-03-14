@@ -13,7 +13,7 @@ const App = () => {
   const [page, setPage] = useState(1);
   const [items, setItems] = useState([]);
   const [searchName, setSearchName] = useState('');
-  const [totalHits, setTotalHits] = useState(0);
+  const [, setTotalHits] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
